@@ -1,0 +1,132 @@
+/*
+** Link Text Color
+*/
+
+/* Text Edit and NonEdit */
+.cm-s-obsidian span.cm-link {
+  color: red !important;
+}
+/* Text Hover editing link */
+.cm-s-obsidian span.cm-link:hover {
+  color: blue !important;
+}
+
+/* URL editing not hover */
+.cm-s-obsidian span.cm-url {
+  color: Yellow !important;
+}
+/* URL editing hover */
+
+.cm-s-obsidian span.cm-url:hover {
+  color: green !important;
+}
+
+/*
+.is-collapsed > :is(h1, h2, h3, h4, h5, h6),
+.HyperMD-header > .cm-fold-indicator.is-collapsed ~ .cm-widgetBuffer:last-of-type::after { 
+    margin-bottom: 24px !important; 
+}
+*/
+
+/* .HyperMD-header-1::after {
+  margin-bottom: 18px !important;
+}
+
+.HyperMD-header-2::after {
+  margin-bottom: 18px !important;
+}
+
+.HyperMD-header-3::after {
+  margin-bottom: 18px !important;
+}
+
+.HyperMD-header-4::after {
+  margin-bottom: 18px !important;
+}
+.HyperMD-header-5::after {
+  margin-bottom: 18px !important;
+}
+
+.HyperMD-header-6::after {
+  margin-bottom: 18px !important;
+} */
+
+
+
+.center-object {
+  display: block;
+  text-align: center;
+}
+
+.right-object {
+  display: block;
+  text-align: right;
+}
+
+.left-object {
+  display: block;
+  text-align: left;
+}
+
+
+/* .cm-scroller {
+  background-color: rgb(11, 15, 19);
+} */
+
+.hover-popover {
+  width: 1000px !important;
+  height: 800px !important;
+  border: none !important;
+  -webkit-box-shadow: 0px 0px 15px 5px #FFFFFF !important; 
+  box-shadow: 0px 0px 15px 5px #FFFFFF !important;
+}
+
+.hover-popover > .markdown-embed {
+  width: 100% !important;
+  min-height: 100% !important;
+}
+
+/* Adjusts font size in code blocks*/
+.HyperMD-codeblock {
+  font-size: 13px !important;
+}
+
+code {
+  font-size: 13px !important;
+}
+
+
+/* Adjusts padding under headings */
+
+.HyperMD-header.HyperMD-header-5.cm-line, 
+.HyperMD-header.HyperMD-header-1.cm-line,
+.HyperMD-header.HyperMD-header-3.cm-line, 
+.HyperMD-header.HyperMD-header-2.cm-line,
+.HyperMD-header.HyperMD-header-4.cm-line{
+  padding-bottom: 20px !important;
+}
+
+/* 
+ table > thead > tr > th {
+  width: 100% !important;
+  min-width: 100%;
+} */
+
+
+/* This adjusts the margin betwwen lsit items ie. bulleted and numbered*/
+
+.HyperMD-list-line{
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+/* Changes color of bold text*/
+.cm-strong {
+  color: rgb(233, 237, 242);
+  /* color: rgb(184, 184, 184); */
+}
+
+/* Hides block ids when linking specific paragraphs*/
+span.cm-blockid {
+  display: none !important;
+}
